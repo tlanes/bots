@@ -17,8 +17,8 @@ SUBS = ['spaceporn',
 		'interestingasfuck',
 		'americandad']
 
-fromaddr = "tjl236@nau.edu"
-email_list = ["tlanes@asu.edu"]
+fromaddr = "@nau.edu"
+email_list = ["@asu.edu"]
 
 topics_dict = { "title":[], "score":[]}
 
@@ -28,7 +28,7 @@ def authenticate():
 						password = config.password,
 						client_id = config.client_id,
 						client_secret = config.client_secret,
-					user_agent = "ttjj1995 top post scraper v0.1")
+					user_agent = "______ top post scraper v0.1")
 	print("Authenticated as {}".format(reddit.user.me()))
 	return reddit
 
