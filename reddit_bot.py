@@ -10,7 +10,7 @@ def authenticate():
 						password = config.password,
 						client_id = config.client_id,
 						client_secret = config.client_secret,
-					user_agent = "ttjj1995 joke comment responder v0.1")
+					user_agent = "____ joke comment responder v0.1")
 	print "Authenticated as {}".format(reddit.user.me())
 	
 	return reddit
