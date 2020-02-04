@@ -8,7 +8,7 @@ def bot_login():
 					password = config.password,
 					client_id = config.client_id,
 					client_secret = config.client_secret,
-					user_agent = "ttjj1995's notifier v0.1")
+					user_agent = "_____ notifier v0.1")
 	print "Logged in!"
 
 	return r
