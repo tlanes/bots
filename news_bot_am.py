@@ -7,8 +7,8 @@ import datetime as dt
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
-fromaddr = "tjl236@nau.edu"
-toaddr = "tlanes@asu.edu"
+fromaddr = ""
+toaddr = ""
 sub_dict = {"title":[], "url":[]}
 
 def authenticate():
@@ -17,7 +17,7 @@ def authenticate():
 						password = config.password,
 						client_id = config.client_id,
 						client_secret = config.client_secret,
-					user_agent = "ttjj1995 joke comment responder v0.1")
+					user_agent = "______ joke comment responder v0.1")
 	print "Authenticated as {}".format(reddit.user.me())
 	
 	return reddit
